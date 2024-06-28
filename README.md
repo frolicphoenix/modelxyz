@@ -1,7 +1,7 @@
 # modelxyz
 A 3D model viewer web app created using ThreeJS
 
-##Technologies
+## Technologies
 - Frontend: React (with Redux for state management)
 - Backend: NodeJS to handle API requests and serve the application
 - 3D Rendering: Three.js or Babylon.js to render 3D models in the browser
