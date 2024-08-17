@@ -1,0 +1,26 @@
+{
+  "name": "modelxyz",
+  "version": "1.0.0",
+  "description": "A 3D model viewer web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranjall",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mocha": "^10.5.2",
+    "multer": "^1.4.5-lts.1",
+    "react": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
