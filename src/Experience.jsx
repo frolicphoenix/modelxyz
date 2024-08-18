@@ -11,7 +11,7 @@ export default function Experience() {
     const model = useGLTF('./low_poly_camera_model.glb')
     
     // const { perfVisible } = useControls({ 
-    //     perfVisible: true 
+    //     perfVisible: true
     // });
     
     // console.log(position)

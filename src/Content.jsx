@@ -1,15 +1,23 @@
 import '../src/content.css'
+//page components
+import Fileupload from './Components/Fileupload';
 
-export default function Header() {
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
+export default function Content() {
     return (
-        <header id="header" className='point'>
-            <nav>
-                <a className="modelxyzlogo" href="/">model<span>x</span><span>y</span><span>z</span></a>
-                <ul className="navbar">
-                    <li className="navbar-item"><a href="/">Upload a model</a></li>
-                    <li className="navbar-item"><a href="/">Gallery</a></li>
-                </ul>
-            </nav>            
-        </header>
+        <div className='content'>
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route path='viewer' element={<Fileupload />} />
+                </Routes>
+                <Footer />
+            </BrowserRouter>
+        </div>
     );
 }
