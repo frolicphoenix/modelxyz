@@ -8,7 +8,7 @@ import { Perf } from "r3f-perf";
 
 export default function Experience() {
 
-    const model = useGLTF('./pile_of_poo_emoji.glb')
+    const model = useGLTF('./low_poly_camera_model.glb')
     
     const { perfVisible } = useControls({ 
         perfVisible: true 
