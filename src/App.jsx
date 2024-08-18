@@ -5,16 +5,18 @@ import { StrictMode } from "react";
 
 import './App.css'
 import Experience from './Experience';
-
+import Header from './Header';
 
 function App() {
 
   return (
     <StrictMode>
-      <Leva collapsed />
+      
+      {/* <Leva collapsed /> */}
       <Canvas shadows>
         <Experience />
       </Canvas>
+      <Header />
     </StrictMode>
   )
 }

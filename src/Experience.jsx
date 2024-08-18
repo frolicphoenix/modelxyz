@@ -10,9 +10,10 @@ export default function Experience() {
 
     const model = useGLTF('./low_poly_camera_model.glb')
     
-    const { perfVisible } = useControls({ 
-        perfVisible: true 
-    });
+    // const { perfVisible } = useControls({ 
+    //     perfVisible: true 
+    // });
+    
     // console.log(position)
 
     // useFrame(() =>
@@ -27,7 +28,7 @@ export default function Experience() {
     return (
         <>
 
-            { perfVisible && <Perf position="top-left" /> }
+            {/* { perfVisible && <Perf position="top-left" /> } */}
             <OrbitControls makeDefault />
 
             <directionalLight castShadow position={[3,2,1]} intensity={4} />
