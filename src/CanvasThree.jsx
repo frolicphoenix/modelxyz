@@ -8,18 +8,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Experience from './Experience';
 
-import CanvasThree from './CanvasThree';
-import Content from './Content';
 
-function App() {
+export default function CanvasThree () {
 
   return (
-    <>
-      <CanvasThree />
-      <Content />
+    <StrictMode>
+
+      <Leva collapsed />
+
+      <Canvas shadows>
+        <Experience />
+      </Canvas>
       
-    </>
-  );
+    </StrictMode>
+  )
 }
 
-export default App

@@ -1,6 +1,6 @@
 
 :root {
-	--c-action-primary: #2e44ff;
+	--c-action-primary: #ff2e8f;
 	--c-action-primary-accent: #e9e5ff;
 	--c-action-secondary: #e5e5e5;
 	--c-text-primary: #0d0f21; 
@@ -18,12 +18,6 @@ input, button, select, textarea {
 	background-color: #FFF;
 	border-radius: .5rem;
 	box-shadow: 0 5px 15px rgba(#000, .2); 
-}
-.modal-header {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	padding: 1.5rem 1.5rem 1rem;
 }
 
 .btn-close {
@@ -72,23 +66,6 @@ input, button, select, textarea {
 	}
 } 
 
-.upload-area-icon {
-	display: block;
-	width: 2.25rem;
-	height: 2.25rem;
-	svg {
-		max-height: 100%;
-		max-width: 100%;
-	}
-}
-
-.upload-area-title {
-	margin-top: 1rem;
-	display: block;
-	font-weight: 700;
-		color: var(--c-text-primary);
-}
-
 .upload-area-description {
 		display: block;
 		color: var(--c-text-secondary);
@@ -107,7 +84,7 @@ input, button, select, textarea {
 	}
 }
 
-.btn-secondary, .btn-primary {
+/* .btn-sec, .btn-pri {
 	padding: .5rem 1rem;
 	font-weight: 500;
 	border: 2px solid var(--c-action-secondary);
@@ -115,8 +92,64 @@ input, button, select, textarea {
 	background-color: transparent;
 }
 
-.btn-primary {
+.btn-pri {
 	color: #FFF;
 	background-color: var(--c-action-primary);
 	border-color: var(--c-action-primary);
-}
+} */
+.btn-sec {
+	position: relative;
+	height: 50px;
+	width: 130px;
+	padding: 1px;
+	border: none;
+	border-bottom: 5px solid #ad0056;
+	border-radius: 8px;
+	background: #ff245b;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	transition-property: background, color;
+	transition-duration: 0.2s;
+	&:hover {
+	  background: #ff026b;
+	  border-bottom-color: #ad0056;
+	  color: #eee;
+	}
+	&:active {
+	  bottom: -3px;
+	  border-bottom: 2px solid #54002a;
+	  background: #a10050;
+	  color: #ada48b;
+	}
+  }
+  .btn-pri {
+	position: relative;
+	height: 50px;
+	width: 130px;
+	padding: 1px;
+	border: none;
+	border-bottom: 5px solid #ad0056;
+	border-radius: 8px;
+	background: #ff245b;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	transition-property: background, color;
+	transition-duration: 0.2s;
+	&:hover {
+	  background: #ff026b;
+	  border-bottom-color: #ad0056;
+	  color: #eee;
+	}
+	&:active {
+	  bottom: -3px;
+	  border-bottom: 2px solid #54002a;
+	  background: #a10050;
+	  color: #ada48b;
+	}
+  }
