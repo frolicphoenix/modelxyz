@@ -11,7 +11,7 @@ Modelxyz is a 3D model viewer web application that allows users to upload and in
 
 ## Demo
 
-Check out the live demo [here](modelxyz.vercel.app)
+Check out the live demo [here]([modelxyz.vercel.app](https://modelxyz.vercel.app/))
 
 **Upload a Model:**
    - Click on the "Upload Model" button to select and load your 3D model.
