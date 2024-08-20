@@ -29,6 +29,8 @@ As of now, the project successfully handles the uploading and storing of 3D mode
 
 Check out the live demo [here]([Modelxyz](https://modelxyz.vercel.app/))
 
+https://modelxyz.vercel.app/
+
 **Upload a Model:**
    - Click on the "Upload Model" button to select and load your 3D model.
    - Supported formats: GLB
