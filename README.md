@@ -13,44 +13,12 @@ Modelxyz is a 3D model viewer web application that allows users to upload and in
 
 Check out the live demo [here](modelxyz.vercel.app)
 
-## Getting Started
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v14.0.0 or later)
-- [npm](https://www.npmjs.com/)
-
-### Installation
-
-1. **Clone the repository:**
-
-  
-   git clone https://github.com/foenyxr/modelxyz.git
-   cd modelxyz
-  
-
-2. **Install dependencies:**
-
-   npm install
-   
-
-3. **Start the development server:**
-
-   
-   npm start
-
-
-## Usage
-
 **Upload a Model:**
    - Click on the "Upload Model" button to select and load your 3D model.
-   - Supported formats: OBJ, GLTF, FBX.
+   - Supported formats: GLB
 
 **Interact with the Model:**
    - Use your mouse or trackpad to rotate, zoom, and pan the model.
-
 
 ## Acknowledgments
 
