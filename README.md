@@ -1,6 +1,4 @@
-# Let's create the README.md file based on the provided content
 
-readme_content = """
 # Modelxyz
 
 Modelxyz is a 3D model viewer web application that allows users to upload and interact with 3D models directly in their browser. This project leverages WebGL and Three.js to provide a seamless and interactive experience for visualizing and manipulating 3D assets.
