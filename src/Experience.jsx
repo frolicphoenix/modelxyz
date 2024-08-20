@@ -9,7 +9,7 @@ import { Perf } from "r3f-perf";
 
 export default function Experience() {
 
-    const model = useGLTF('https://github.com/foenyxr/modelxyz/blob/c65ebb5fec1ac1daab9a023b40c51f3549edc83c/api/uploads/pile_of_poo_emoji.glb')
+    const model = useGLTF('https://github.com/foenyxr/modelxyz/blob/c65ebb5fec1ac1daab9a023b40c51f3549edc83c/api/uploads/pile_of_poo_emoji.glb?raw=true')
     
     // const { perfVisible } = useControls({ 
     //     perfVisible: true
