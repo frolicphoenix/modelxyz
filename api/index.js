@@ -8,9 +8,7 @@ const port = process.env.PORT || "8888";
 const cors = require("cors");
 
 //fix this according to your settings, if its different
-app.use(cors({
-    origin: 'http://localhost:5173'
-}));
+app.use(cors());
 
 const multer = require("multer");
 
@@ -18,7 +16,7 @@ const { MongoClient } = require("mongodb");
 const dbURL = "mongodb://localhost:27017/modelxyz";
 const client = new MongoClient(dbURL);
 
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/api/uploads', express.static(path.join(__dirname, 'uploads')));
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {

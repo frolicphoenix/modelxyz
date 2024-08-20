@@ -3,12 +3,13 @@ import { useThree, extend, useFrame, useLoader } from "@react-three/fiber";
 import { useRef } from "react";
 import { useControls } from "leva";
 import { OrbitControls, useGLTF} from "@react-three/drei";
+import { Canvas } from '@react-three/fiber';
 
 import { Perf } from "r3f-perf";
 
 export default function Experience() {
 
-    const model = useGLTF('./api/uploads/low_poly_camera_model.glb')
+    const model = useGLTF('http://localhost:8888/api/uploads/low_poly_camera_model.glb')
     
     // const { perfVisible } = useControls({ 
     //     perfVisible: true
