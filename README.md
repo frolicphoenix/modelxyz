@@ -5,14 +5,13 @@ Modelxyz is a 3D model viewer web application that allows users to upload and in
 
 ## Features
 
-- **3D Model Viewing:** Upload and view 3D models in various formats (e.g., OBJ, GLTF, FBX).
+- **3D Model Viewing:** Upload and view 3D models (ONLY GLB) in various formats.
 - **Interactive Controls:** Rotate, zoom, and pan the models for a detailed view.
 - **Real-time Rendering:** Enjoy smooth and responsive rendering using WebGL and Three.js.
-- **Customizable Environment:** Adjust the lighting, background, and camera settings to enhance the viewing experience.
 
 ## Demo
 
-Check out the live demo [here](#) (replace with your demo link).
+Check out the live demo [here](modelxyz.vercel.app)
 
 ## Getting Started
 
