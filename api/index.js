@@ -3,11 +3,11 @@ const path = require("path");
 
 const app = express();
 
-
 const port = process.env.PORT || "8888";
 
 const cors = require("cors");
 
+//fix this according to your settings, if its different
 app.use(cors({
     origin: 'http://localhost:5173'
 }));
@@ -32,7 +32,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 app.post('/upload', upload.single('model'), async (req, res) => {
-    console.log(req.file);
+    // console.log(req.file);
     if(!req.file) {
         return res.status(400).send('No file uploaded');
     }
@@ -74,6 +74,10 @@ app.get("api/models", async (req, res) => {
         console.error(error);
         res.status(500).send("Server Error");
     }
+});
+
+app.get("/api/uploads", (req, res) => {
+    res.json([{ _id: 1, filename: "model1.glb" }, { _id: 2, filename: "model2.glb" }]); // Example response
 });
 
 let dbConnection;

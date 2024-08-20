@@ -7,8 +7,15 @@ export default function Gallery() {
 
     useEffect(() => {
         axios.get("/api/models")
-          .then(response => setItems(response.data))
-          .catch(error => console.error("Failed to fetch models:", error));
+          .then(response => {
+            if (Array.isArray(response.data)) {
+                console.log(response.data);
+                setModels(response.data.models) 
+            } else {
+                console.error("Expected an array of models, but got:", response.data);
+            }
+            
+        }).catch(error => console.error("Failed to fetch models:", error));
       }, []);
 
     return (
@@ -22,6 +29,9 @@ export default function Gallery() {
                         </h3>
                     </li>
                 })}
+                <li>well</li>
+                <li>hello</li>
+                <li>there</li>
             </ul>
         </div>
     );

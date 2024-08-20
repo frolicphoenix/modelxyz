@@ -31,7 +31,7 @@ export default function Fileupload({setViewerVisible}) {
             <div className="modal show">
                 <div className="modal-body">
                     <div className='btn-close'>
-                        <a href='/'>Close this window</a>
+                        <a href='/'>Return to 3D Viewer</a>
                     </div>
                     <h2 className="modal-title"> Upload a file </h2>
                     <p className="modal-desc">Attach a .glb file below</p>
