@@ -1,7 +1,7 @@
 
 # Modelxyz
 
-Modelxyz is a 3D model viewer web application that allows users to upload and interact with 3D models directly in their browser. This project leverages WebGL and Three.js. The core functionality allows users to upload .glb files, which are then accessible through - a gallery-style interface and an individual model viewer.
+Modelxyz is a 3D model viewer web application that allows users to upload and interact with 3D models directly in their browser. This project uses WebGL and Three.js. The core functionality allows users to upload .glb files, which are then accessible through - a gallery-style interface and an individual model viewer.
 
 ## Objectives
 
