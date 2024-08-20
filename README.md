@@ -38,9 +38,6 @@ https://modelxyz.vercel.app/
 **Interact with the Model:**
    - Use your mouse or trackpad to rotate, zoom, and pan the model.
 
-## What went wrong
-
-
 ## Resources
 
 - [Three.js](https://threejs.org/) 
