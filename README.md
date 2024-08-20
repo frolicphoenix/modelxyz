@@ -22,7 +22,6 @@ Check out the live demo [here](modelxyz.vercel.app)
 
 ## Acknowledgments
 
-- [Three.js](https://threejs.org/) - The powerful library for 3D rendering.
-- [WebGL](https://get.webgl.org/) - The backbone technology for interactive 3D graphics in the browser.
-- Special thanks to all the contributors and the open-source community!
+- [Three.js](https://threejs.org/) 
+- [WebGL](https://get.webgl.org/) 
 
