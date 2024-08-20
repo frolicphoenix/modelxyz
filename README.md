@@ -20,8 +20,9 @@ Check out the live demo [here](modelxyz.vercel.app)
 **Interact with the Model:**
    - Use your mouse or trackpad to rotate, zoom, and pan the model.
 
-## Acknowledgments
+## Resources
 
 - [Three.js](https://threejs.org/) 
-- [WebGL](https://get.webgl.org/) 
+- [WebGL](https://get.webgl.org/)
+- [ThreejsJourney](https://threejs-journey.com/)
 
